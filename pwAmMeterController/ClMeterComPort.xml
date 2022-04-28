@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ComPort>
+  <extension UserID="COM" Index="1" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="1,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="1/24" Channel="" />
+  <extension UserID="COM" Index="2" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="2,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="2/24" Channel="" />
+  <extension UserID="COM" Index="3" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="3,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="3/24" Channel="" />
+  <extension UserID="COM" Index="4" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="4,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="4/24" Channel="" />
+  <extension UserID="COM" Index="5" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="9,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="5/24" Channel="" />
+  <extension UserID="COM" Index="6" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="10,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="6/24" Channel="" />
+  <extension UserID="COM" Index="7" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="11,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="7/24" Channel="" />
+  <extension UserID="COM" Index="8" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="12,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="8/24" Channel="" />
+  <extension UserID="COM" Index="9" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="17,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="9/24" Channel="" />
+  <extension UserID="COM" Index="10" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="18,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="10/24" Channel="" />
+  <extension UserID="COM" Index="11" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="19,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="11/24" Channel="" />
+  <extension UserID="COM" Index="12" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="20,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="12/24" Channel="" />
+  <extension UserID="COM" Index="13" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="5,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="13/24" Channel="" />
+  <extension UserID="COM" Index="14" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="6,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="14/24" Channel="" />
+  <extension UserID="COM" Index="15" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="7,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="15/24" Channel="" />
+  <extension UserID="COM" Index="16" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="8,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="16/24" Channel="" />
+  <extension UserID="COM" Index="17" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="13,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="17/24" Channel="" />
+  <extension UserID="COM" Index="18" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="14,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="18/24" Channel="" />
+  <extension UserID="COM" Index="19" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="15,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="19/24" Channel="" />
+  <extension UserID="COM" Index="20" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="16,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="20/24" Channel="" />
+  <extension UserID="COM" Index="21" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="21,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="21/24" Channel="" />
+  <extension UserID="COM" Index="22" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="25,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="22/24" Channel="" />
+  <extension UserID="COM" Index="23" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="23,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="23/24" Channel="" />
+  <extension UserID="COM" Index="24" Interface="ISerialport" Dllfile="pwComPorts" Class="CCL20181" Parameter="24,193.168.18.1:10003:20000" setting="2400,e,8,1" CParameter="24/24" Channel="" />
+</ComPort>

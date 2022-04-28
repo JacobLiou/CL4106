@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkPlan>
+  <Work Description="工单信息">
+    <Work ID="WorkSN" Name="工单号" Value="默认工单号" />
+    <Work ID="CustomerName" Name="客户名称" Value="默认客户名称" />
+    <Work ID="ProductsName" Name="产品名称" Value="默认产品名称" />
+    <Work ID="ProductsSN" Name="产品编号" Value="默认产品编号" />
+    <Work ID="ProductsModel" Name="产品型号" Value="默号产品型号" />
+  </Work>
+  <Products Description="产品信息">
+    <Products ID="Clfs" Name="测量方式" Value="单相" />
+    <Products ID="Ub" Name="电压" Value="220V" />
+    <Products ID="Ib" Name="电流" Value="5A" />
+    <Products ID="IMax" Name="电流" Value="60A" />
+    <Products ID="Constant" Name="常数" Value="2000" />
+    <Products ID="DJ" Name="等级" Value="1.0" />
+    <Products ID="PL" Name="频率" Value="50" />
+  </Products>
+  <Plan_ReadScbh Description="读生产编号信息">
+    <Plan_ReadScbh ID="IsCheck" Name="是否要检" Value="true" />
+    <Plan_ReadScbh ID="CustomerName" Name="项目名称" Value="读生产编号" />
+    <Plan_ReadScbh ID="ProductsName" Name="项目参数" Value="DL/T645-1997|FFF9" />
+  </Plan_ReadScbh>
+  <Plan_Wcjd Description="误差检定信息">
+    <Plan_Wcjd ID="IsCheck" Name="是否要检" Value="true" />
+    <Plan_Wcjd ID="CustomerName" Name="项目名称" Value="误差检定" />
+    <Plan_Wcjd ID="ProductsName" Name="项目参数" Value="" />
+  </Plan_Wcjd>
+  <Plan_DgnSy Description="多功能试验信息">
+    <Plan_DgnSy ID="IsCheck" Name="是否要检" Value="true" />
+    <Plan_DgnSy ID="CustomerName" Name="项目名称" Value="多功能试验" />
+    <Plan_DgnSy ID="ProductsName" Name="项目参数" Value="" />
+  </Plan_DgnSy>
+  <Plan_DownPara Description="打包参数下载信息">
+    <Plan_DownPara ID="IsCheck" Name="是否要检" Value="true" />
+    <Plan_DownPara ID="CustomerName" Name="项目名称" Value="打包参数下载" />
+    <Plan_DownPara ID="ProductsName" Name="项目参数" Value="DL/T645-1997|111111111111|5" />
+  </Plan_DownPara>
+  <Plan_SysClear Description="系统清零信息">
+    <Plan_SysClear ID="IsCheck" Name="是否要检" Value="true" />
+    <Plan_SysClear ID="CustomerName" Name="项目名称" Value="系统清零" />
+    <Plan_SysClear ID="ProductsName" Name="项目参数" Value="DL/T645-2007|04CC1000|1|0|55" />
+  </Plan_SysClear>
+  <Plan_Wcjd_Point Description="误差检定点信息">
+    <Plan_Wcjd_Point PrjID="1" PrjName="P+ 合元 1.0 Imax 基本误差" GLFX="正向有功" YJ="合元" GLYS="1.0" xIb="4Ib" Qs="20" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point PrjID="2" PrjName="P+ 合元 0.5L Imax 基本误差" GLFX="正向有功" YJ="合元" GLYS="0.5L" xIb="4Ib" Qs="20" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point PrjID="3" PrjName="P+ 合元 1.0 1.0Ib 基本误差" GLFX="正向有功" YJ="合元" GLYS="1.0Ib" xIb="1.0" Qs="5" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point PrjID="4" PrjName="P+ 合元 0.5L 1.0Ib 基本误差" GLFX="正向有功" YJ="合元" GLYS="0.5L" xIb="1.0Ib" Qs="5" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point PrjID="5" PrjName="P+ 合元 1.0 0.5Ib 基本误差" GLFX="正向有功" YJ="合元" GLYS="1.0" xIb="0.5Ib" Qs="5" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point PrjID="6" PrjName="P+ 合元 1.0 0.2Ib 基本误差" GLFX="正向有功" YJ="合元" GLYS="1.0" xIb="0.2Ib" Qs="5" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point PrjID="7" PrjName="P+ 合元 1.0 0.1Ib 基本误差" GLFX="正向有功" YJ="合元" GLYS="1.0" xIb="0.1Ib" Qs="5" fMax="0.2" fMin="-0.2" PC="false" />
+  </Plan_Wcjd_Point>
+  <Plan_DgnSy_Item Description="多功能试验项信息">
+    <Plan_DgnSy_Item PrjID="1" PrjName="日计时误差" OutPramerter="正向有功|合元|1Ub|0Ib|1.0" PrjParm="1" />
+  </Plan_DgnSy_Item>
+  <Plan_DownPara_Item Description="打包参数下载项信息">
+    <Plan_DownPara_Item PrjID="1" TxFrame="68 11 11 11 11 11 11 68 04 07 44 F4 33 33 33 33 48 8D 16" RxFrame="FE FE 68 11 11 11 11 11 11 68 84 00 BA 16" />
+    <Plan_DownPara_Item PrjID="2" TxFrame="68 11 11 11 11 11 11 68 04 07 45 F4 33 33 33 33 34 7A 16" RxFrame="FE FE 68 11 11 11 11 11 11 68 84 00 BA 16" />
+    <Plan_DownPara_Item PrjID="3" TxFrame="68 11 11 11 11 11 11 68 04 07 46 F4 33 33 33 33 38 7F 16" RxFrame="FE FE 68 11 11 11 11 11 11 68 84 00 BA 16" />
+    <Plan_DownPara_Item PrjID="4" TxFrame="68 11 11 11 11 11 11 68 04 07 47 F4 33 33 33 33 93 DB 16" RxFrame="FE FE 68 11 11 11 11 11 11 68 84 00 BA 16" />
+    <Plan_DownPara_Item PrjID="5" TxFrame="68 11 11 11 11 11 11 68 04 08 4A F4 33 33 33 33 33 34 B3 16" RxFrame="FE FE 68 11 11 11 11 11 11 68 84 00 BA 16" />
+  </Plan_DownPara_Item>
+</WorkPlan>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pwComPorts", "pwComPorts.csproj", "{BD6E9513-66B0-4C3A-8724-A9A47BE051EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD6E9513-66B0-4C3A-8724-A9A47BE051EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6E9513-66B0-4C3A-8724-A9A47BE051EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6E9513-66B0-4C3A-8724-A9A47BE051EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6E9513-66B0-4C3A-8724-A9A47BE051EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

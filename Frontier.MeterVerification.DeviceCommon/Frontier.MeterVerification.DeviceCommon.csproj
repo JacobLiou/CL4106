@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{22E78327-D665-4E9C-B173-9026CC91AFEF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Frontier.MeterVerification.DeviceCommon</RootNamespace>
+    <AssemblyName>Frontier.MeterVerification.DeviceCommon</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Resource\Client\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\CommPortDevice.cs" />
+    <Compile Include="Common\CommPortParity.cs" />
+    <Compile Include="Common\CommSerialPortSettings.cs" />
+    <Compile Include="Common\CommSocketDevice.cs" />
+    <Compile Include="Common\CommSocketSettings.cs" />
+    <Compile Include="Common\FrameAnalyzer.cs" />
+    <Compile Include="Common\gSJJ1009Server.cs" />
+    <Compile Include="Common\LoadPhase.cs" />
+    <Compile Include="Common\MessageAnalyzerDelegate.cs" />
+    <Compile Include="Common\PortException.cs" />
+    <Compile Include="Common\VerificationElementType.cs" />
+    <Compile Include="DataReceivedArgs.cs" />
+    <Compile Include="DeviceManager.cs" />
+    <Compile Include="Dlt645_2007\Dlt645_2007Cmd.cs" />
+    <Compile Include="Dlt645_2007\Dlt645_2007Helper.cs" />
+    <Compile Include="Dlt645_2007\Dlt645_2007Protocol.cs" />
+    <Compile Include="ErrorData.cs" />
+    <Compile Include="Helper\CheckHelper.cs" />
+    <Compile Include="Helper\VerificationHelper.cs" />
+    <Compile Include="MeterJcjjd.cs" />
+    <Compile Include="MeterPeriod.cs" />
+    <Compile Include="MonitorData.cs" />
+    <Compile Include="PhaseEnergy.cs" />
+    <Compile Include="PhaseTime.cs" />
+    <Compile Include="PowerConsume.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PulseValue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VerificationEquipment.Commons\VerificationEquipment.Commons.csproj">
+      <Project>{DB881C9C-ADFC-4062-83A0-256F716AEFB7}</Project>
+      <Name>VerificationEquipment.Commons</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

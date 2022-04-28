@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A0723415-EF32-4E41-9D31-057D7F74120A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CL4100</RootNamespace>
+    <AssemblyName>CL4102_12</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>CL4101.ico</ApplicationIcon>
+    <StartupObject>CL4100.Program</StartupObject>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SignManifests>false</SignManifests>
+    <ManifestCertificateThumbprint>9727D037A3B3DAD5F443079D5FB93406DABC311E</ManifestCertificateThumbprint>
+    <ManifestKeyFile>CL4101_02_TemporaryKey.pfx</ManifestKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OrBitADCService, Version=11.0.4529.34036, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dllfile\OrBitADCService.dll</HintPath>
+    </Reference>
+    <Reference Include="pwCollapseDataGridView">
+      <HintPath>..\Debug\pwCollapseDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapter.cs" />
+    <Compile Include="CodeFile1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Display.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Display.Designer.cs">
+      <DependentUpon>Display.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitor.designer.cs">
+      <DependentUpon>Monitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MOShemaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOShemaForm.designer.cs">
+      <DependentUpon>MOShemaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pw_AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pw_AboutBox.Designer.cs">
+      <DependentUpon>pw_AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pw_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pw_Login.Designer.cs">
+      <DependentUpon>pw_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Display.resx">
+      <DependentUpon>Display.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Monitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MOShemaForm.resx">
+      <DependentUpon>MOShemaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pw_AboutBox.resx">
+      <DependentUpon>pw_AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pw_Login.resx">
+      <DependentUpon>pw_Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pw_Main.resx">
+      <DependentUpon>pw_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pw_Report.resx">
+      <DependentUpon>pw_Report.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowDataView\pwCheckShowDataVew.resx">
+      <DependentUpon>pwCheckShowDataVew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pw_TTTxm.resx">
+      <DependentUpon>pw_TTTxm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pw_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pw_Main.Designer.cs">
+      <DependentUpon>pw_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pw_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pw_Report.Designer.cs">
+      <DependentUpon>pw_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowDataView\pwCheckShowDataVew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowDataView\pwCheckShowDataVew.Designer.cs">
+      <DependentUpon>pwCheckShowDataVew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pw_TTTxm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pw_TTTxm.designer.cs">
+      <DependentUpon>pw_TTTxm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Frontier.MeterVerification.Communication\Frontier.MeterVerification.Communication.csproj">
+      <Project>{DC63062F-8CE4-4F5C-9A12-EB8DB33C02BC}</Project>
+      <Name>Frontier.MeterVerification.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frontier.MeterVerification.DeviceCommon\Frontier.MeterVerification.DeviceCommon.csproj">
+      <Project>{22E78327-D665-4E9C-B173-9026CC91AFEF}</Project>
+      <Name>Frontier.MeterVerification.DeviceCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frontier.MeterVerification.DeviceInterface\Frontier.MeterVerification.DeviceInterface.csproj">
+      <Project>{6C75F40B-7D31-4C8A-9AAF-62434A332C2A}</Project>
+      <Name>Frontier.MeterVerification.DeviceInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frontier.MeterVerification.KLDevice\Frontier.MeterVerification.KLDevice.csproj">
+      <Project>{A3783FF0-E498-44FF-AD4B-7262389EE26D}</Project>
+      <Name>Frontier.MeterVerification.KLDevice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwAmMeterController\pwAmMeterController.csproj">
+      <Project>{B5F0F887-E6AC-4659-A4B0-04836A2D831D}</Project>
+      <Name>pwAmMeterController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwClassLibrary\pwClassLibrary.csproj">
+      <Project>{8B657BBF-1F39-4C9F-BD97-22BB41D28568}</Project>
+      <Name>pwClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwFunction\pwFunction.csproj">
+      <Project>{2CB36124-27EE-407A-840C-E46E26C56BA8}</Project>
+      <Name>pwFunction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwInterface\pwInterface.csproj">
+      <Project>{DAC7EF1E-85EA-4977-89ED-0C4DF1EACA83}</Project>
+      <Name>pwInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwMeterProtocol\pwMeterProtocol.csproj">
+      <Project>{57FD75E0-EFB0-4D1C-875E-62A3F26C1ABC}</Project>
+      <Name>pwMeterProtocol</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwResource\pwResource.csproj">
+      <Project>{EB3E43E9-A588-40AA-9D5E-47BAC444E755}</Project>
+      <Name>pwResource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VerificationEquipment.Commons\VerificationEquipment.Commons.csproj">
+      <Project>{DB881C9C-ADFC-4062-83A0-256F716AEFB7}</Project>
+      <Name>VerificationEquipment.Commons</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CL4100-02.ico" />
+    <Content Include="CL4101.ico" />
+    <Content Include="WorkPlan.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

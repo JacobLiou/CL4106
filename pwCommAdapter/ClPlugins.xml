@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <extension>
+    <UserID>ClCommV7</UserID>
+    <Interface>IPower</Interface>
+    <Dllfile>pwCommAdapter</Dllfile>
+    <Class>CCL109</Class>
+    <ComDllfile>pwComPorts</ComDllfile>
+    <ComClass>CCL20181</ComClass>
+    <Parameter>33,193.168.18.1:10003:20000</Parameter>
+    <setting>38400,n,8,1</setting>
+    <CParameter />
+    <Channel />
+  </extension>
+  <extension>
+    <UserID>ClCommV7</UserID>
+    <Interface>IStdMeter</Interface>
+    <Dllfile>pwCommAdapter</Dllfile>
+    <Class>CCL1115</Class>
+    <ComDllfile>pwComPorts</ComDllfile>
+    <ComClass>CCL20181</ComClass>
+    <Parameter>30,193.168.18.1:10003:20000</Parameter>
+    <setting>38400,n,8,1</setting>
+    <CParameter />
+    <Channel />
+  </extension>
+  <extension>
+    <UserID>ClCommV7</UserID>
+    <Interface>IErrorCalculate</Interface>
+    <Dllfile>pwCommAdapter</Dllfile>
+    <Class>CCL188L</Class>
+    <ComDllfile>pwComPorts</ComDllfile>
+    <ComClass>CCL20181</ComClass>
+    <Parameter>31,193.168.18.1:10003:20000</Parameter>
+    <setting>38400,n,8,1</setting>
+    <CParameter>1/1</CParameter>
+    <Channel />
+  </extension>
+  <extension>
+    <UserID>ClCommV7</UserID>
+    <Interface>IStdTime</Interface>
+    <Dllfile>pwCommAdapter</Dllfile>
+    <Class>CCL191</Class>
+    <ComDllfile>pwComPorts</ComDllfile>
+    <ComClass>CCL20181</ComClass>
+    <Parameter>32,193.168.18.1:10003:20000</Parameter>
+    <setting>2400,n,8,1</setting>
+    <CParameter />
+    <Channel />
+  </extension>
+</DocumentElement>

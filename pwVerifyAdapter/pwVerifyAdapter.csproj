@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E855EE8-C658-4227-89A1-314CDFF720E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>pwVerifyAdapter</RootNamespace>
+    <AssemblyName>pwVerifyAdapter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\dllfile\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\dllfile\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicError.cs" />
+    <Compile Include="EquipUnit.cs" />
+    <Compile Include="Dgn_ClockError.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WuChaDeal.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Frontier.MeterVerification.Communication\Frontier.MeterVerification.Communication.csproj">
+      <Project>{DC63062F-8CE4-4F5C-9A12-EB8DB33C02BC}</Project>
+      <Name>Frontier.MeterVerification.Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frontier.MeterVerification.DeviceCommon\Frontier.MeterVerification.DeviceCommon.csproj">
+      <Project>{22E78327-D665-4E9C-B173-9026CC91AFEF}</Project>
+      <Name>Frontier.MeterVerification.DeviceCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frontier.MeterVerification.DeviceInterface\Frontier.MeterVerification.DeviceInterface.csproj">
+      <Project>{6C75F40B-7D31-4C8A-9AAF-62434A332C2A}</Project>
+      <Name>Frontier.MeterVerification.DeviceInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Frontier.MeterVerification.KLDevice\Frontier.MeterVerification.KLDevice.csproj">
+      <Project>{A3783FF0-E498-44FF-AD4B-7262389EE26D}</Project>
+      <Name>Frontier.MeterVerification.KLDevice</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwClassLibrary\pwClassLibrary.csproj">
+      <Project>{8B657BBF-1F39-4C9F-BD97-22BB41D28568}</Project>
+      <Name>pwClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwFunction\pwFunction.csproj">
+      <Project>{2CB36124-27EE-407A-840C-E46E26C56BA8}</Project>
+      <Name>pwFunction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwInterface\pwInterface.csproj">
+      <Project>{DAC7EF1E-85EA-4977-89ED-0C4DF1EACA83}</Project>
+      <Name>pwInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VerificationEquipment.Commons\VerificationEquipment.Commons.csproj">
+      <Project>{DB881C9C-ADFC-4062-83A0-256F716AEFB7}</Project>
+      <Name>VerificationEquipment.Commons</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkPlan>
+  <Work Description="工单信息">
+    <Work ID="WorkSN" Name="工单号" Value="ds2001219" />
+    <Work ID="CustomerName" Name="客户名称" Value="国网山西省电力公" />
+    <Work ID="ProductsName" Name="产品名称" Value="DSZY719-M-C7  100V-1（10）A  山西远程费控（STM32F100/单485/E" />
+    <Work ID="ProductsSN" Name="产品编号" Value="         26021308000025                        " />
+    <Work ID="ProductsModel" Name="产品型号" Value="C7-2" />
+  </Work>
+  <Products Description="产品信息">
+    <Products ID="Clfs" Name="测量方式" Value="三相三线" />
+    <Products ID="Ub" Name="电压" Value="100V" />
+    <Products ID="Ib" Name="电流" Value="1.5A" />
+    <Products ID="IMax" Name="电流" Value="6A" />
+    <Products ID="Constant" Name="常数" Value="20000" />
+    <Products ID="DJ" Name="等级" Value="0.5S" />
+    <Products ID="PL" Name="频率" Value="50" />
+    <Products ID="DzType" Name="端子类型" Value="国网端子" />
+    <Products ID="GYGY" Name="共阴共阳" Value="共阴" />
+    <Products ID="PulseType" Name="脉冲类型" Value="脉冲盒" />
+    <Products ID="JDQType" Name="继电器类型" Value="外置继电器" />
+  </Products>
+  <Plan_ReadScbh Description="读生产编号信息">
+    <Plan_ReadScbh ID="IsCheck" Name="是否要检" Value="false" />
+    <Plan_ReadScbh ID="CustomerName" Name="项目名称" Value="读生产编号信息" />
+    <Plan_ReadScbh ID="ProductsName" Name="项目参数" Value="DLT645_1997|FFF9|12|0||" />
+  </Plan_ReadScbh>
+  <Plan_Wcjd Description="误差检定信息">
+    <Plan_Wcjd ID="IsCheck" Name="是否要检" Value="True" />
+    <Plan_Wcjd ID="CustomerName" Name="项目名称" Value="误差检定信息" />
+    <Plan_Wcjd ID="ProductsName" Name="项目参数" Value="4" />
+  </Plan_Wcjd>
+  <Plan_Wcjd_Point Description="误差检定点信息">
+    <Plan_Wcjd_Point ID="1" PrjName="回路1 P+ 合元 1.0 Imax 基本误差" DLHL="0" GLFX="正向有功" YJ="合元" GLYS="1.0" xIb="4Ib" Qs="12" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point ID="2" PrjName="回路1 P+ 合元 0.5L Imax 基本误差" DLHL="0" GLFX="正向有功" YJ="合元" GLYS="0.5L" xIb="4Ib" Qs="6" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="3" PrjName="回路1 P+ 合元 0.8C Imax 基本误差" DLHL="0" GLFX="正向有功" YJ="合元" GLYS="0.8C" xIb="4Ib" Qs="8" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="4" PrjName="回路1 P+ 合元 1.0 1.0Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="合元" GLYS="1.0" xIb="1.0Ib" Qs="4" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point ID="5" PrjName="回路1 P+ 合元 0.5L 1.0Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="合元" GLYS="0.5L" xIb="1.0Ib" Qs="2" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="6" PrjName="回路1 P+ 合元 1.0 0.05Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="合元" GLYS="1.0" xIb="0.05Ib" Qs="1" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point ID="7" PrjName="回路1 P+ 合元 0.5L 0.05Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="合元" GLYS="0.5L" xIb="0.05Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="8" PrjName="回路1 P+ 合元 1.0 0.02Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="合元" GLYS="1.0" xIb="0.02Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="9" PrjName="回路1 P+ A元 1.0 Imax 基本误差" DLHL="0" GLFX="正向有功" YJ="A元" GLYS="1.0" xIb="4Ib" Qs="4" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="10" PrjName="回路1 P+ A元 0.5L Imax 基本误差" DLHL="0" GLFX="正向有功" YJ="A元" GLYS="0.5L" xIb="4Ib" Qs="2" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="11" PrjName="回路1 P+ A元 1.0 1.0Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="A元" GLYS="1.0" xIb="1.0Ib" Qs="1" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="12" PrjName="回路1 P+ A元 0.5L 1.0Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="A元" GLYS="0.5L" xIb="1.0Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="13" PrjName="回路1 P+ A元 0.5L 0.1Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="A元" GLYS="0.5L" xIb="0.1Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="14" PrjName="回路1 P+ A元 1.0 0.05Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="A元" GLYS="1.0" xIb="0.05Ib" Qs="1" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="15" PrjName="回路1 P+ C元 1.0 Imax 基本误差" DLHL="0" GLFX="正向有功" YJ="C元" GLYS="1.0" xIb="4Ib" Qs="4" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="16" PrjName="回路1 P+ C元 0.5L Imax 基本误差" DLHL="0" GLFX="正向有功" YJ="C元" GLYS="0.5L" xIb="4Ib" Qs="2" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="17" PrjName="回路1 P+ C元 1.0 1.0Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="C元" GLYS="1.0" xIb="1.0Ib" Qs="1" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="18" PrjName="回路1 P+ C元 0.5L 1.0Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="C元" GLYS="0.5L" xIb="1.0Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="19" PrjName="回路1 P+ C元 0.5L 0.1Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="C元" GLYS="0.5L" xIb="0.1Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="20" PrjName="回路1 P+ C元 1.0 0.05Ib 基本误差" DLHL="0" GLFX="正向有功" YJ="C元" GLYS="1.0" xIb="0.05Ib" Qs="1" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="21" PrjName="回路1 P- 合元 1.0 Imax 基本误差" DLHL="0" GLFX="反向有功" YJ="合元" GLYS="1.0" xIb="4Ib" Qs="12" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point ID="22" PrjName="回路1 P- 合元 0.5L Imax 基本误差" DLHL="0" GLFX="反向有功" YJ="合元" GLYS="0.5L" xIb="4Ib" Qs="6" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="23" PrjName="回路1 P- 合元 0.8C Imax 基本误差" DLHL="0" GLFX="反向有功" YJ="合元" GLYS="0.8C" xIb="4Ib" Qs="8" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="24" PrjName="回路1 P- 合元 1.0 1.0Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="合元" GLYS="1.0" xIb="1.0Ib" Qs="4" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point ID="25" PrjName="回路1 P- 合元 0.5L 1.0Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="合元" GLYS="0.5L" xIb="1.0Ib" Qs="2" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="26" PrjName="回路1 P- 合元 1.0 0.05Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="合元" GLYS="1.0" xIb="0.05Ib" Qs="1" fMax="0.2" fMin="-0.2" PC="false" />
+    <Plan_Wcjd_Point ID="27" PrjName="回路1 P- 合元 0.5L 0.05Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="合元" GLYS="0.5L" xIb="0.05Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="28" PrjName="回路1 P- 合元 1.0 0.02Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="合元" GLYS="1.0" xIb="0.02Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="29" PrjName="回路1 P- A元 1.0 Imax 基本误差" DLHL="0" GLFX="反向有功" YJ="A元" GLYS="1.0" xIb="4Ib" Qs="4" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="30" PrjName="回路1 P- A元 0.5L Imax 基本误差" DLHL="0" GLFX="反向有功" YJ="A元" GLYS="0.5L" xIb="4Ib" Qs="2" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="31" PrjName="回路1 P- A元 1.0 1.0Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="A元" GLYS="1.0" xIb="1.0Ib" Qs="1" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="32" PrjName="回路1 P- A元 0.5L 1.0Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="A元" GLYS="0.5L" xIb="1.0Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="33" PrjName="回路1 P- A元 0.5L 0.1Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="A元" GLYS="0.5L" xIb="0.1Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="34" PrjName="回路1 P- A元 1.0 0.05Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="A元" GLYS="1.0" xIb="0.05Ib" Qs="1" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="35" PrjName="回路1 P- C元 1.0 Imax 基本误差" DLHL="0" GLFX="反向有功" YJ="C元" GLYS="1.0" xIb="4Ib" Qs="4" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="36" PrjName="回路1 P- C元 0.5L Imax 基本误差" DLHL="0" GLFX="反向有功" YJ="C元" GLYS="0.5L" xIb="4Ib" Qs="2" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="37" PrjName="回路1 P- C元 1.0 1.0Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="C元" GLYS="1.0" xIb="1.0Ib" Qs="1" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="38" PrjName="回路1 P- C元 0.5L 1.0Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="C元" GLYS="0.5L" xIb="1.0Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="39" PrjName="回路1 P- C元 0.5L 0.1Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="C元" GLYS="0.5L" xIb="0.1Ib" Qs="1" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="40" PrjName="回路1 P- C元 1.0 0.05Ib 基本误差" DLHL="0" GLFX="反向有功" YJ="C元" GLYS="1.0" xIb="0.05Ib" Qs="1" fMax="0.24" fMin="-0.24" PC="false" />
+    <Plan_Wcjd_Point ID="41" PrjName="回路1 Q+ 合元 1.0 Imax 基本误差" DLHL="0" GLFX="正向无功" YJ="合元" GLYS="1.0" xIb="4Ib" Qs="12" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="42" PrjName="回路1 Q+ 合元 0.5L Imax 基本误差" DLHL="0" GLFX="正向无功" YJ="合元" GLYS="0.5L" xIb="4Ib" Qs="6" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="43" PrjName="回路1 Q+ 合元 1.0 1.0Ib 基本误差" DLHL="0" GLFX="正向无功" YJ="合元" GLYS="1.0" xIb="1.0Ib" Qs="4" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="44" PrjName="回路1 Q+ 合元 0.5L 1.0Ib 基本误差" DLHL="0" GLFX="正向无功" YJ="合元" GLYS="0.5L" xIb="1.0Ib" Qs="2" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="45" PrjName="回路1 Q+ 合元 0.5L 0.05Ib 基本误差" DLHL="0" GLFX="正向无功" YJ="合元" GLYS="0.5L" xIb="0.05Ib" Qs="1" fMax="0.6" fMin="-0.6" PC="false" />
+    <Plan_Wcjd_Point ID="46" PrjName="回路1 Q- 合元 1.0 Imax 基本误差" DLHL="0" GLFX="反向无功" YJ="合元" GLYS="1.0" xIb="4Ib" Qs="12" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="47" PrjName="回路1 Q- 合元 0.5L Imax 基本误差" DLHL="0" GLFX="反向无功" YJ="合元" GLYS="0.5L" xIb="4Ib" Qs="6" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="48" PrjName="回路1 Q- 合元 1.0 1.0Ib 基本误差" DLHL="0" GLFX="反向无功" YJ="合元" GLYS="1.0" xIb="1.0Ib" Qs="4" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="49" PrjName="回路1 Q- 合元 0.5L 1.0Ib 基本误差" DLHL="0" GLFX="反向无功" YJ="合元" GLYS="0.5L" xIb="1.0Ib" Qs="2" fMax="0.4" fMin="-0.4" PC="false" />
+    <Plan_Wcjd_Point ID="50" PrjName="回路1 Q- 合元 0.5L 0.05Ib 基本误差" DLHL="0" GLFX="反向无功" YJ="合元" GLYS="0.5L" xIb="0.05Ib" Qs="1" fMax="0.6" fMin="-0.6" PC="false" />
+  </Plan_Wcjd_Point>
+  <Plan_DgnSy Description="日计时误差检定">
+    <Plan_DgnSy ID="IsCheck" Name="是否要检" Value="True" />
+    <Plan_DgnSy ID="CustomerName" Name="项目名称" Value="日计时误差检定" />
+    <Plan_DgnSy ID="ProductsName" Name="项目参数" Value="5000000|1|1|" />
+  </Plan_DgnSy>
+  <Plan_SinglePhaseTest Description="分相供电测试">
+    <Plan_SinglePhaseTest ID="IsCheck" Name="是否要检" Value="True" />
+    <Plan_SinglePhaseTest ID="CustomerName" Name="项目名称" Value="分相供电测试" />
+    <Plan_SinglePhaseTest ID="ProductsName" Name="项目参数" Value="5" />
+  </Plan_SinglePhaseTest>
+  <Plan_ACSamplingTest Description="交流采样测试">
+    <Plan_ACSamplingTest ID="IsCheck" Name="是否要检" Value="True" />
+    <Plan_ACSamplingTest ID="CustomerName" Name="项目名称" Value="交流采样测试" />
+    <Plan_ACSamplingTest ID="ProductsName" Name="项目参数" Value="5|5|5" />
+  </Plan_ACSamplingTest>
+  <Plan_ReadEnergy Description="读电能表底度">
+    <Plan_ReadEnergy ID="IsCheck" Name="是否要检" Value="True" />
+    <Plan_ReadEnergy ID="CustomerName" Name="项目名称" Value="读电能表底度" />
+    <Plan_ReadEnergy ID="ProductsName" Name="项目参数" Value="DLT645_2007|00000000|4|2||500|0.02|" />
+  </Plan_ReadEnergy>
+  <Plan_DownPara Description="打包参数下载信息">
+    <Plan_DownPara ID="IsCheck" Name="是否要检" Value="True" />
+    <Plan_DownPara ID="CustomerName" Name="项目名称" Value="打包参数下载信息" />
+    <Plan_DownPara ID="ProductsName" Name="项目参数" Value="||||" />
+  </Plan_DownPara>
+  <Plan_DownPara_Item Description="打包参数下载项信息" />
+  <Plan_SysClear Description="系统清零信息">
+    <Plan_SysClear ID="IsCheck" Name="是否要检" Value="True" />
+    <Plan_SysClear ID="CustomerName" Name="项目名称" Value="系统清零信息" />
+    <Plan_SysClear ID="ProductsName" Name="项目参数" Value="DLT645_2007|04CC1000|1|0|55|" />
+  </Plan_SysClear>
+</WorkPlan>

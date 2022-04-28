@@ -1,0 +1,1480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Frontier.MeterVerification.KLDevice.CLCurrentControl" Collapsed="true">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAQAAAAAACAAIAAAAAAAAAAACAAACACAA=</HashCode>
+      <FileName>CLCurrentControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLDlt645_2007" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AZABAFAKBlEAaIAAAAgAAAIAAgoEEAAPBIZECoiAAAA=</HashCode>
+      <FileName>CLDlt645_2007.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLErrorPlate" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A3ZPlhCoA4Ho6RRCOGYG2AXW1QAGBPI8QgkMaAWYZ+A=</HashCode>
+      <FileName>CLErrorPlate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLLightAndControlPower" Collapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAgAASEAAIAAAAgIAAABAAAAAAAAAIACEAFA=</HashCode>
+      <FileName>CLLightAndControlPower.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLPower" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQCBCBAggASAAAAAAEJgIAAABCAKAIQAAAITCAAAg=</HashCode>
+      <FileName>CLPower.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLPowerConsumePlate" Collapsed="true">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAhAAQAAgAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>CLPowerConsumePlate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLPowerSupply" Collapsed="true">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAgAAQAAAAAAAAAIAAAAAAgAAAAAAAACAAAA=</HashCode>
+      <FileName>CLPowerSupply.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLResistance" Collapsed="true">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFAwAAQAIARAAABAAAAAABAACAAAAAAACAQAA=</HashCode>
+      <FileName>CLResistance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLReversalElectromotor" Collapsed="true">
+    <Position X="19.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAIAAAwAAyCAAAAAAIAAAAAAAAgAAQAEAIACAAAA=</HashCode>
+      <FileName>CLReversalElectromotor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLStdMeter" Collapsed="true">
+    <Position X="21.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACABAAKpAAaABAAAGAAAAAAABCAQAQAAIRIgCKAAA=</HashCode>
+      <FileName>CLStdMeter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLTimeSync" Collapsed="true">
+    <Position X="24" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgkAQAAAAAAAAAAAAAAAAAAAAAgAAACAAAA=</HashCode>
+      <FileName>CLTimeSync.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.ByteBuffer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="303" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAAgATgEQRBgCIAAABBAoBCkAAAAABIlAAq4gEw=</HashCode>
+      <FileName>Comm\ByteBuffer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Comm2018Device" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQQCAAQAAoABoCCBAEAABCAAAAAAoAAQAAACCACAiAQ=</HashCode>
+      <FileName>Comm\Comm2018Device.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Connection" Collapsed="true">
+    <Position X="304.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAEABAAAAAAAAAIAAAAAAAACAAAA=</HashCode>
+      <FileName>Comm\Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.GlobalUnit" Collapsed="true">
+    <Position X="306.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAIAABAABAAAACAAAIIAAAAAAQAgAABA=</HashCode>
+      <FileName>Comm\GlobalUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.SingletonBase&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Comm\SingletonBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.SockPool" Collapsed="true">
+    <Position X="311.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAAIAEAACAAAEAAAAAAAAAgAAAAQAAAAABAAAA=</HashCode>
+      <FileName>Comm\SockPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.StdMeterConst" Collapsed="true">
+    <Position X="303" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAARAAAAAAAAAAAAAAAAAAAAAABAAAQABEAAAA=</HashCode>
+      <FileName>Comm\Struct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Packet" Collapsed="true">
+    <Position X="157.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceAbstractClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.RecvPacket" Collapsed="true">
+    <Position X="86.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceAbstractClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.RequestInit2018PortPacket" Collapsed="true">
+    <Position X="161" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceAbstractClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.SendPacket" Collapsed="true">
+    <Position X="230.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceAbstractClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.ClouRecvPacket_CLT11" Collapsed="true">
+    <Position X="86.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAABAAAAAAAAAAAAAAEAABAUAAAAAAAAAAAAAAAAU=</HashCode>
+      <FileName>Drivers\DeviceAbstractClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.ClouSendPacket_CLT11" Collapsed="true">
+    <Position X="233" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAABAAAAAAAAAAAAAgAAABAAAAAAAAAAAAAAAAAgQ=</HashCode>
+      <FileName>Drivers\DeviceAbstractClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188LSendPacket" Collapsed="true">
+    <Position X="184.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAACAAAEAAAAAAAXAAAAAyABACAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188LRecvPacket" Collapsed="true">
+    <Position X="21.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL191BSendPacket" Collapsed="true">
+    <Position X="222.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL191BRecvPacket" Collapsed="true">
+    <Position X="62" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2029BSendPacket">
+    <Position X="260" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2029BRecvPacket" Collapsed="true">
+    <Position X="71" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2029DRecvPacket" Collapsed="true">
+    <Position X="80" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2029DSendPacket" Collapsed="true">
+    <Position X="269" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2030RecvPacket" Collapsed="true">
+    <Position X="94.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2030SendPacket" Collapsed="true">
+    <Position X="274.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2031BRecvPacket" Collapsed="true">
+    <Position X="107" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2031BSendPacket" Collapsed="true">
+    <Position X="280.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038ARecvPacket" Collapsed="true">
+    <Position X="127.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038ASendPacket" Collapsed="true">
+    <Position X="291.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309RecvPacket" Collapsed="true">
+    <Position X="148.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309SendPacket" Collapsed="true">
+    <Position X="211.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115RecvPacket" Collapsed="true">
+    <Position X="42.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115SendPacket" Collapsed="true">
+    <Position X="242" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLElectromotorRecvPacket" Collapsed="true">
+    <Position X="64.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLElectromotorSendPacket" Collapsed="true">
+    <Position X="265.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAACAAAEAAAAAAAXAAAAAyABACAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestClearBwStatusPacket" Collapsed="true">
+    <Position X="176.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAABAIAAAAAABAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestClearBwStatusReplayPacket" Collapsed="true">
+    <Position X="82.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestIChannelControlPacket" Collapsed="true">
+    <Position X="183.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestIChannelControlReplayPacket" Collapsed="true">
+    <Position X="100.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestLinkPacket" Collapsed="true">
+    <Position X="190.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestLinkReplayPacket" Collapsed="true">
+    <Position X="109.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestReadBwLast10WcAndStatusPacket" Collapsed="true">
+    <Position X="197" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestReadBwLast10WcAndStatusReplyPacket" Collapsed="true">
+    <Position X="23.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBIQAABAIAAAAACABAkgAQAAGAQIAAgAAAUAgAAAAI=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestReadBwWcAndStatusPacket" Collapsed="true">
+    <Position X="201.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestReadBwWcAndStatusReplyPacket" Collapsed="true">
+    <Position X="26" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBIQAIBAIAAAAACABAkgAQAAGAQIAAgAAA0AgABABI=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestReadWcBoardVerPacket" Collapsed="true">
+    <Position X="165.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestReadWcBoardVerReplyPacket" Collapsed="true">
+    <Position X="17" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAFAAQAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestReadBwTemperaturePacket" Collapsed="true">
+    <Position X="170" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAABAIAQAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestReadBwTemperatureReplyPacket" Collapsed="true">
+    <Position X="21.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAEAAQIAAAAAQEAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSelectCheckRoadPacket" Collapsed="true">
+    <Position X="174.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAIEAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSelectCheckRoadReplayPacket" Collapsed="true">
+    <Position X="75.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSelectLightStatusPacket" Collapsed="true">
+    <Position X="181.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAQAAAAAAAAAAAAABAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSelectLightStatusReplayPacket" Collapsed="true">
+    <Position X="86.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSelectPulseChannelAndCheckTypePacket" Collapsed="true">
+    <Position X="188" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIQAAgAAAAAAAAAAAAAAAAARAIAAABAgAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSelectPulseChannelAndCheckTypeReplayPacket" Collapsed="true">
+    <Position X="104.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSeperateBwControlPacket" Collapsed="true">
+    <Position X="194.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAgAAAAAAAAAAAAAAAABAIAAAABAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSeperateBwControlReplayPacket" Collapsed="true">
+    <Position X="116" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSetElectromotorPacket" Collapsed="true">
+    <Position X="199.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAABAIEAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSetElectromotorReplayPacket" Collapsed="true">
+    <Position X="138.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSetPulseParaPacket" Collapsed="true">
+    <Position X="203.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAADAIAAAAJBABIAAAAAAAAAAEABAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSetPulseParaReplayPacket" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSetTimePluseNumAndXLTimePacket" Collapsed="true">
+    <Position X="167.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAABAAAQAAAAAAAAABAIAAAAIAEAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSetTimePluseNumAndXLTimeReplayPacket" Collapsed="true">
+    <Position X="59.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSetWishStandCurrentLimitPacket" Collapsed="true">
+    <Position X="172.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABgIAAAAAAAAAAAAAAAAAAAAABAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSetWishStandCurrentLimitReplayPacket" Collapsed="true">
+    <Position X="66.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSetWishStandStatusPacket" Collapsed="true">
+    <Position X="179" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAABAIEAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestSetWishStandStatusReplayPacket" Collapsed="true">
+    <Position X="84.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestStartPCFunctionPacket" Collapsed="true">
+    <Position X="185.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIQAAAAAAAAAAAAAAAAAAAABAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestStartPCFunctionReplayPacket" Collapsed="true">
+    <Position X="102.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestStopPCFunctionPacket" Collapsed="true">
+    <Position X="192.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIQAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL188L_RequestStopPCFunctionReplayPacket" Collapsed="true">
+    <Position X="111.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.ReadWcbManager" Collapsed="true">
+    <Position X="308.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAAAIAABAASAAQAAIACIAAABAEAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.ReadWcbThread" Collapsed="true">
+    <Position X="310" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAABKAEBCAAAIAAIAQAAAAkgIBAIQAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLReversalElectromotor_RequestSetElectromotorPacket" Collapsed="true">
+    <Position X="266.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAABAIEAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLReversalElectromotor_RequestSetElectromotorReplayPacket" Collapsed="true">
+    <Position X="158.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAIAAAAAAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLReversalElectromotor_RequestReadBwWcAndStatusPacket" Collapsed="true">
+    <Position X="264.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CLReversalElectromotor_RequestReadBwWcAndStatusReplyPacket" Collapsed="true">
+    <Position X="19.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBIQAIBAIAAAAACABAkgAQAAGAQIAAgAAA0AgABABI=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL191B_RequestLinkPacket" Collapsed="true">
+    <Position X="219.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL191B_RequestLinkReplyPacket" Collapsed="true">
+    <Position X="145.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL191B_RequestReadGPSTimePacket" Collapsed="true">
+    <Position X="221.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL191B_RequestReadGPSTimeReplayPacket" Collapsed="true">
+    <Position X="77.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAACAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL191B_RequestReadTemperatureAndHumidityPacket" Collapsed="true">
+    <Position X="224" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL191B_RequestReadTemperatureAndHumidityReplayPacket" Collapsed="true">
+    <Position X="89" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL191B_RequestSetChannelPacket" Collapsed="true">
+    <Position X="226.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL191B_RequestSetChannelReplyPacket" Collapsed="true">
+    <Position X="154.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2029B_RequestLinkPacket" Collapsed="true">
+    <Position X="257.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Cl2029B_RequestLinkReplyPacket" Collapsed="true">
+    <Position X="71" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2029B_RequestSetLightPacket" Collapsed="true">
+    <Position X="260" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAQAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Cl2029B_RequestSetLightReplyPacket" Collapsed="true">
+    <Position X="73.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2029B_RequestControlPowerPacket" Collapsed="true">
+    <Position X="262.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2029B_RequestControlPowerReplyPacket" Collapsed="true">
+    <Position X="68.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2029D_RequestSetSwitchPacket" Collapsed="true">
+    <Position X="269" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2029D_RequestSetSwitchReplyPacket" Collapsed="true">
+    <Position X="80" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2030_RequestClearOverPacket" Collapsed="true">
+    <Position X="271.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2030_RequestClearOverReplyPacket" Collapsed="true">
+    <Position X="91.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2030_RequestLinkPacket" Collapsed="true">
+    <Position X="273.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Cl2030_RequestLinkReplyPacket" Collapsed="true">
+    <Position X="93.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2030_RequestSetLinkTypePacket" Collapsed="true">
+    <Position X="275.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2030_RequestSetLinkTypeReplyPacket" Collapsed="true">
+    <Position X="95.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2030_RequestSwitchPacket" Collapsed="true">
+    <Position X="278" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2030_RequestSwitchReplyPacket" Collapsed="true">
+    <Position X="98" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestControlPacket" Collapsed="true">
+    <Position X="296" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgBAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestControlReplyPacket" Collapsed="true">
+    <Position X="131.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestSetThresholdValuePacket" Collapsed="true">
+    <Position X="300.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAABAAAQAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestSetThresholdValueReplyPacket" Collapsed="true">
+    <Position X="136.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestSetVoltagePacket" Collapsed="true">
+    <Position X="282.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAABAAAAAACAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestSetVoltageReplyPacket" Collapsed="true">
+    <Position X="118.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestSetTimePacket" Collapsed="true">
+    <Position X="284.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestSetTimeReplyPacket" Collapsed="true">
+    <Position X="120.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestResetStatusPacket" Collapsed="true">
+    <Position X="287" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestResetStatusReplyPacket" Collapsed="true">
+    <Position X="122.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestReadFreqPacket" Collapsed="true">
+    <Position X="289.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestReadFreqReplyPacket" Collapsed="true">
+    <Position X="125" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestReadCurrentPacket" Collapsed="true">
+    <Position X="291.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestReadCurrentReplyPacket" Collapsed="true">
+    <Position X="127.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestReadStatusPacket" Collapsed="true">
+    <Position X="293.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestReadStatusReplyPacket" Collapsed="true">
+    <Position X="129.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestReadVoltagePacket" Collapsed="true">
+    <Position X="298.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2038A_RequestReadVoltageReplyPacket" Collapsed="true">
+    <Position X="134" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309_RequestLinkPacket" Collapsed="true">
+    <Position X="217.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Cl309_RequestLinkReplyPacket" Collapsed="true">
+    <Position X="140.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309_RequestPowerOffPacket" Collapsed="true">
+    <Position X="206" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gDQABHjQ4iBQCEAAcSAACGAAGBqADXDKIAFBIJMuAIA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Cl309_RequestPowerOffReplyPacket" Collapsed="true">
+    <Position X="143" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309_RequestPowerOnPacket" Collapsed="true">
+    <Position X="208.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gDQABD3Q4iBQCEAAcSBACGAAGBqACHDKYAFBIBEKAIA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Cl309_RequestPowerOnReplyPacket" Collapsed="true">
+    <Position X="147.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309_RequestReadPowerOverInfoPacket" Collapsed="true">
+    <Position X="210.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309_RequestReadPowerOverInfoReplyPacket" Collapsed="true">
+    <Position X="149.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309_RequestReadVerPacket" Collapsed="true">
+    <Position X="212.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309_RequestReadVersionReplayPacket" Collapsed="true">
+    <Position X="152" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309_RequestUpdateUIPacket" Collapsed="true">
+    <Position X="215" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL309_RequestUpdateUIPacketReplayPacket" Collapsed="true">
+    <Position X="156.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestLinkPacket" Collapsed="true">
+    <Position X="251" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestLinkReplyPacket" Collapsed="true">
+    <Position X="50.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestReadStdMeterConstPacket" Collapsed="true">
+    <Position X="253.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestReadStdMeterConstReplayPacket" Collapsed="true">
+    <Position X="55.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestReadStdInfoPacket" Collapsed="true">
+    <Position X="228.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestReadStdInfoReplayPacket" Collapsed="true">
+    <Position X="28.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAEAAAAAAQAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestReadStdMeterTotalNumPacket" Collapsed="true">
+    <Position X="233" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestReadStdMeterTotalNumReplayPacket" Collapsed="true">
+    <Position X="32.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestReadStdMeterTotalPulseNumPacket" Collapsed="true">
+    <Position X="237.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestReadStdMeterTotalPulseNumReplayPacket" Collapsed="true">
+    <Position X="37.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestReadStdMeterZZDataPacket" Collapsed="true">
+    <Position X="242" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestReadStdMeterZZDataReplayPacket" Collapsed="true">
+    <Position X="41.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAEAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetStdMeterConstPacket" Collapsed="true">
+    <Position X="246.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetStdMeterConstReplayPacket" Collapsed="true">
+    <Position X="46.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetParaPacket" Collapsed="true">
+    <Position X="248.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABCAAAACAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetParaReplayPacket" Collapsed="true">
+    <Position X="48.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_ReplyOkPacket" Collapsed="true">
+    <Position X="53" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetStdMeterDangWeiPacket" Collapsed="true">
+    <Position X="255.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetStdMeterDangWeiReplayPacket" Collapsed="true">
+    <Position X="57.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetStdMeterLinkTypePacket" Collapsed="true">
+    <Position X="230.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetStdMeterLinkTypeReplayPacket" Collapsed="true">
+    <Position X="30.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetStdMeterScreenPacket" Collapsed="true">
+    <Position X="235.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetStdMeterScreenReplayPacket" Collapsed="true">
+    <Position X="35" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetStdMeterUsE1typePacket" Collapsed="true">
+    <Position X="239.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestSetStdMeterUsE1typeReplayPacket" Collapsed="true">
+    <Position X="39.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestStartTaskPacket" Collapsed="true">
+    <Position X="244.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL3115_RequestStartTaskReplyPacket" Collapsed="true">
+    <Position X="44" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2031B_RequestReadGhInfoPacket" Collapsed="true">
+    <Position X="280.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.CL2031B_RequestReadGhInfoReplayPacket" Collapsed="true">
+    <Position X="107" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Rs485RequestReplayPacket" Collapsed="true">
+    <Position X="113.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.Rs485RequestPacket" Collapsed="true">
+    <Position X="163.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.MulitThreadManager" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACQAAAAAAAgAAAAAAAAAAAACIAIAAAAAAAA=</HashCode>
+      <FileName>MulitThread\MulitThreadManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontier.MeterVerification.KLDevice.WorkThread" Collapsed="true">
+    <Position X="304.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACQEBAAAAAAAAAQAACAkAABAIAAAAAAAAAA=</HashCode>
+      <FileName>MulitThread\WorkThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Frontier.MeterVerification.KLDevice.UIPara" Collapsed="true">
+    <Position X="310" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAARAAAAAIAIAAAAAAAAAAAAAAAAAAAARAA=</HashCode>
+      <FileName>Comm\Struct.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Frontier.MeterVerification.KLDevice.PhiPara" Collapsed="true">
+    <Position X="303" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAEEACAAEgAAAAAAAAAA=</HashCode>
+      <FileName>Comm\Struct.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Frontier.MeterVerification.KLDevice.stStdInfo" Collapsed="true">
+    <Position X="308.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JCACAAAAAAERBwAAAICIAwAAAAAAEQAmAAAAQATwRAA=</HashCode>
+      <FileName>Comm\Struct.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Frontier.MeterVerification.KLDevice.stError" Collapsed="true">
+    <Position X="304.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAIAAIAAAAACAAAEAAQAAAAQAAAAAAEkAAABgBI=</HashCode>
+      <FileName>Comm\Struct.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Frontier.MeterVerification.KLDevice.stPower" Collapsed="true">
+    <Position X="306.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JCACAAAAAAERBwAAAICIAwAAAAAAEQAmAAAAQATwRAA=</HashCode>
+      <FileName>Comm\Struct.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Frontier.MeterVerification.KLDevice.IConnection" Collapsed="true">
+    <Position X="303" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAIAAIAABAAAAAAAAAAAAAAAAAAAACACAAAA=</HashCode>
+      <FileName>Comm\IConnection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Frontier.MeterVerification.KLDevice.RecvResult" Collapsed="true">
+    <Position X="311.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAABABAAAAAQAAAAAABAQEAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.enmUIXXType" Collapsed="true">
+    <Position X="310" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAEBAAAAAABAQAAAACA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.CusPowerErrorLevel" Collapsed="true">
+    <Position X="303" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_WuchaType" Collapsed="true">
+    <Position X="311.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAIAAgAAACAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_VolFallOffType" Collapsed="true">
+    <Position X="310" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAEAABAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_TestType" Collapsed="true">
+    <Position X="308.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAABACAAACAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_StdPulseType" Collapsed="true">
+    <Position X="306.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_StdMeterScreen" Collapsed="true">
+    <Position X="303" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAgA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_StdMeterIDangWei" Collapsed="true">
+    <Position X="311.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgQAAGwAAAAAAAAAAIAAAAAAAAIBAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_StdMeterVDangWei" Collapsed="true">
+    <Position X="304.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAUQAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_SeiBiaoType" Collapsed="true">
+    <Position X="310" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.enmPulseComType" Collapsed="true">
+    <Position X="304.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_MeterWcChannelNo" Collapsed="true">
+    <Position X="303" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAgAAAgAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_DgnWcChannelNo" Collapsed="true">
+    <Position X="311.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAYAAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_CheckType" Collapsed="true">
+    <Position X="308.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAoAIAgAAAAAAEAAQAAAAAAIA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_PulseType" Collapsed="true">
+    <Position X="308.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_PowerYuanJiang" Collapsed="true">
+    <Position X="306.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAoEEAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_PowerFangXiang" Collapsed="true">
+    <Position X="304.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_MeterType_DianziOrGanYing" Collapsed="true">
+    <Position X="311.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_LightSelect" Collapsed="true">
+    <Position X="308.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAEAAAAAACBAAAAAAACAAAAIAAIA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_LightType" Collapsed="true">
+    <Position X="310" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAgEAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_IChannelType" Collapsed="true">
+    <Position X="306.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_GyGyType" Collapsed="true">
+    <Position X="304.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_FeiLv" Collapsed="true">
+    <Position X="303" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAIgAAAEAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_Clfs" Collapsed="true">
+    <Position X="310" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAQAAAAAAAAAAAEAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_CheckStaute" Collapsed="true">
+    <Position X="306.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAABAAAAAQAAAgAAAAAAAAAAAABCAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_BothIRoadType" Collapsed="true">
+    <Position X="303" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.Cus_BothVRoadType" Collapsed="true">
+    <Position X="304.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.enmTaskType" Collapsed="true">
+    <Position X="308.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAgAAAIAAAAAAAAAAAgIEAQQAAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Frontier.MeterVerification.KLDevice.enmStdPulseType" Collapsed="true">
+    <Position X="306.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Comm\Enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

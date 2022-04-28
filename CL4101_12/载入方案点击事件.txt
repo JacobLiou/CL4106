@@ -1,0 +1,52 @@
+   private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+             MOShemaForm f = new MOShemaForm();
+            f.Activate();
+            if (f.ShowDialog() == DialogResult.OK)
+            {
+                splitContainer3.Panel1.Controls.Clear();                
+                InitProgram();
+               // pw_Main();
+                #region Main_Load
+
+                //Load
+                pwClassLibrary.TopWaiting.ShowWaiting("正在启动主界面......");               
+
+                //标准表读取事件
+                Adapter.g_ComAdpater.OnReadStaInfo += new OnEventReadStdInfo(updateStdInfo);
+
+                //工单产品显示
+                pwClassLibrary.TopWaiting.ShowWaiting("正在加载工单及产品......");
+                this.BeginInvoke(new MethodInvoker(DisplayWorkAndProducts));
+
+                //方案显示
+                pwClassLibrary.TopWaiting.ShowWaiting("正在加载方案......");
+                this.BeginInvoke(new MethodInvoker(InitPLan));
+
+                //初始化结果界面（灯泡显示界面）
+                pwClassLibrary.TopWaiting.ShowWaiting("正在加载灯泡显示......");
+                this.BeginInvoke(new MethodInvoker(thLoadUserControl));
+
+                //初始详细数据显示界面
+                pwClassLibrary.TopWaiting.ShowWaiting("正在加载数据显示界面......");
+                this.BeginInvoke(new MethodInvoker(LoadDataView));
+
+                //检定项目改变事件
+                Adapter.OnEventItemChange += new DelegateEventItemChange(DisplayRow);
+
+                //消息事件
+                m_listView = listView1;
+                m_listView.Items.Clear();
+                m_listView.Columns[2].Width = m_listView.Parent.Width - 180;
+                MessageToolStripMenuItem.Checked = false;
+                splitContainer3.Panel2Collapsed = true;
+
+                pwFunction.pwConst.GlobalUnit.g_MsgControl.ShowMsg += new pwClassLibrary.VerifyMsgControl.OnShowMsg(myShowMsg);
+                Thread myMsgThread = new Thread(pwFunction.pwConst.GlobalUnit.g_MsgControl.DoWork);
+                myMsgThread.Start();
+                pwClassLibrary.TopWaiting.ShowWaiting("系统已全部加载完成！");             
+                pwClassLibrary.TopWaiting.HideWaiting();
+                #endregion
+            }
+        
+        }

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C75F40B-7D31-4C8A-9AAF-62434A332C2A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Frontier.MeterVerification.DeviceInterface</RootNamespace>
+    <AssemblyName>Frontier.MeterVerification.DeviceInterface</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Resource\Client\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IConnect.cs" />
+    <Compile Include="IControlPressMotor.cs" />
+    <Compile Include="IControlEquipmentPower.cs" />
+    <Compile Include="IControlResistanceMoto.cs" />
+    <Compile Include="IControlResistancePower.cs" />
+    <Compile Include="IControlReversalMotor.cs" />
+    <Compile Include="ICurrentControl.cs" />
+    <Compile Include="IDlt645.cs" />
+    <Compile Include="IEquipmentStatus.cs" />
+    <Compile Include="ILight.cs" />
+    <Compile Include="IMonitor.cs" />
+    <Compile Include="IPower.cs" />
+    <Compile Include="IPowerConsume.cs" />
+    <Compile Include="IPowerSupply.cs" />
+    <Compile Include="IResistance.cs" />
+    <Compile Include="IResistanceWcfk.cs" />
+    <Compile Include="IMeterPositionStatus.cs" />
+    <Compile Include="IStdMeter.cs" />
+    <Compile Include="ITemperature.cs" />
+    <Compile Include="ITimeChannel.cs" />
+    <Compile Include="IWcfk.cs" />
+    <Compile Include="ICalcTime.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Frontier.MeterVerification.DeviceCommon\Frontier.MeterVerification.DeviceCommon.csproj">
+      <Project>{22E78327-D665-4E9C-B173-9026CC91AFEF}</Project>
+      <Name>Frontier.MeterVerification.DeviceCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VerificationEquipment.Commons\VerificationEquipment.Commons.csproj">
+      <Project>{DB881C9C-ADFC-4062-83A0-256F716AEFB7}</Project>
+      <Name>VerificationEquipment.Commons</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CB36124-27EE-407A-840C-E46E26C56BA8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>pwFunction</RootNamespace>
+    <AssemblyName>pwFunction</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\dllfile\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\dllfile\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OrBitADCService, Version=11.0.4529.34036, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\OrBitADCService.dll</HintPath>
+    </Reference>
+    <Reference Include="PropertyGridEx, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PropertyGridEx.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="pwConst\GlobalUnit.cs" />
+    <Compile Include="pwConst\Variable.cs" />
+    <Compile Include="pwModel\pwMeter\MeterBase.cs" />
+    <Compile Include="pwModel\pwMeter\MeterData.cs" />
+    <Compile Include="pwModel\pwMeter\MeterInfo.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan_ReadEnergy.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan_SinglePhaseTest.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan_ACSamplingTest.cs" />
+    <Compile Include="pwModel\pwProducts\ProductsInfo.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan_ReadScbh.cs" />
+    <Compile Include="pwModel\pwPlan\cPlanBase.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan_Wcjd.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan_DgnSy.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan_DownPara.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan_SysClear.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan_Wcjd_Point.cs" />
+    <Compile Include="pwModel\pwPlan\cPlan_DownPara_Item.cs" />
+    <Compile Include="pwModel\pwSystem\csGlys.cs" />
+    <Compile Include="pwModel\pwSystem\UI_SystemManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pwModel\pwSystem\UI_SystemManager.designer.cs">
+      <DependentUpon>UI_SystemManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pwModel\pwWork\WorkInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="pwModel\pwSystem\SystemConfigure.cs" />
+    <Compile Include="pwModel\pwSystem\SystemInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pwModel\pwSystem\UI_SystemManager.resx">
+      <DependentUpon>UI_SystemManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pwModel\pwPlan\WorkPlan.xml" />
+    <Content Include="pwModel\pwWork\WorkPlan.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\pwClassLibrary\pwClassLibrary.csproj">
+      <Project>{8B657BBF-1F39-4C9F-BD97-22BB41D28568}</Project>
+      <Name>pwClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwInterface\pwInterface.csproj">
+      <Project>{DAC7EF1E-85EA-4977-89ED-0C4DF1EACA83}</Project>
+      <Name>pwInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClInterface.CAmMeterInfo" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAQAACFCJABCIkIIAwAgAAAQGAjCCVEhAIRBAAIA=</HashCode>
+      <FileName>CAmMeterInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ClInterface.IAmMeterController" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACBEJkAABBzEBZFQABACBAECAsAACEAGgAAKyigBI=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.IAmMeterProtocol" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QYACBEAAAABJxACYMAABgAgAAAQsAACCUGgQAARAAIA=</HashCode>
+      <FileName>IAmMeterProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.ICommAdapter" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBEACIMBAQAACoIAQRAjAAAIAIBAAxCkAAAFQEQAACA=</HashCode>
+      <FileName>ICommAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.ICTPControl" Collapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAIAAQAAAAAAABAAAAAAAEBQAAAAIAAAAAAA=</HashCode>
+      <FileName>ICTPControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.IErrorCalculate" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAEgAgAFgBACJAAIAAAAAAAAAohFAAIAQAREAAA=</HashCode>
+      <FileName>IErrorCalculate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.IPower" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAgCAAIBQDAAAAAAABAAgAAAAAAARAAEA=</HashCode>
+      <FileName>IPower.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.ISerialport" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAIAABAEAIAAAAAAAIAAIAAAAIAAABARAAAA=</HashCode>
+      <FileName>ISerialport.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.IStdMeter" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgIAAggAAAAgoAAIAAiAIAAAAABQAgAAAIAAARAAkA=</HashCode>
+      <FileName>IStdMeter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.IStdTime" Collapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAgAAAIgCAAIAAAAAgAAAAEAUAAIAAAQARAAAA=</HashCode>
+      <FileName>IStdTime.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.IVerifyAdapter" Collapsed="true">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEIAAAAAAAAAA=</HashCode>
+      <FileName>IVerifyAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.UI.IClientUI" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAAACKEAAAQAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>UI\IClientUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ClInterface.UI.IMainConsoleUI" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\IMainConsoleUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ClInterface.enmTaskType" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAgAAAIAAAAAAAAAAAgIEAQQAAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmControlTaskType" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmClfs" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmElement" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoEEAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmIType" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmChannelType" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmPulseComType" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmGyGyType" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmStdPulseType" Collapsed="true">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmVolFallOff" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAEAABAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmUIXXType" Collapsed="true">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAEBAAAAAABAQAAAACA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmShowResultType" Collapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmStateLightType" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAABAAAAAAAAAAAAAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmTempHitchType" Collapsed="true">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmPDirectType" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAABAgAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmTariffType" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAIgAAAEAAAAoAAAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.enmComPulseType">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAIAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ClInterface.Status2036" Collapsed="true">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAAgAAQAAAIAAAAAAQAAAAAAAAAAAAAUA=</HashCode>
+      <FileName>CEnumLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="ClInterface.DelegateEventCommTest" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateEventBroadcastTime" Collapsed="true">
+    <Position X="9.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateReadEnergy" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateReadDemand" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateReadDateTime" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateReadAddress" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateReadPeriodTime" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateReadData" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateReadDataStrArray" Collapsed="true">
+    <Position X="9.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateReadDataFloatArray" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateWriteAddress" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateWriteDateTime" Collapsed="true">
+    <Position X="2.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateWritePeriodTime" Collapsed="true">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateWriteData" Collapsed="true">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateClearDemand" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateClearEnergy" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateClearEventLog" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateSetPulseCom" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateFreezeCmd" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateChangeSetting" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DelegateChangePassword" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.Dge_EventRxFrame" Collapsed="true">
+    <Position X="5.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.Dge_EventTxFrame" Collapsed="true">
+    <Position X="7.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DisposeRxEvent" Collapsed="true">
+    <Position X="9.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.DisposeTxEvent" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAmMeterProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.OnEventDataArrival" Collapsed="true">
+    <Position X="5.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAiAAAAEAAAAAAAQAA=</HashCode>
+      <FileName>ICTPControl.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.OnEventCTPMessage" Collapsed="true">
+    <Position X="4" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICTPControl.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.RevEventDelegete" Collapsed="true">
+    <Position X="2.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISerialport.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.EventUpdateMeterData" Collapsed="true">
+    <Position X="2.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>IVerifyAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.UI.OnEventSendMessage" Collapsed="true">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\ITopUI.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.UI.OnEventStartAdpater" Collapsed="true">
+    <Position X="9.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\IClientUI.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ClInterface.UI.OnEventStopAdpater" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\IClientUI.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="宋体" Size="9.75" />
+</ClassDiagram>

@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCA3DEB2-CC18-434E-B5AA-EF885C7FABD6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdapterTest</RootNamespace>
+    <AssemblyName>AdapterTest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>sign072.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Test\frmCL485_HW_Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmCL485_HW_Test.Designer.cs">
+      <DependentUpon>frmCL485_HW_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmGetServerStandardTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmGetServerStandardTime.Designer.cs">
+      <DependentUpon>frmGetServerStandardTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Test\frmCL485_HW_Test.resx">
+      <DependentUpon>frmCL485_HW_Test.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmGetServerStandardTime.resx">
+      <DependentUpon>frmGetServerStandardTime.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmCL188.resx">
+      <DependentUpon>frmCL188.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmCL191.resx">
+      <DependentUpon>frmCL191.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmCL303.resx">
+      <DependentUpon>frmCL303.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmCL311.resx">
+      <DependentUpon>frmCL311.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmCL485.resx">
+      <DependentUpon>frmCL485.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\pwFkTest.resx">
+      <DependentUpon>pwFkTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmCLMainControl.resx">
+      <DependentUpon>frmCLMainControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmCLPowerConsume.resx">
+      <DependentUpon>frmCLPowerConsume.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmCL485Adjust.resx">
+      <DependentUpon>frmCL485Adjust.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmCL485_WriteSCBH.resx">
+      <DependentUpon>frmCL485_WriteSCBH.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\frmSetSystemDateTime.resx">
+      <DependentUpon>frmSetSystemDateTime.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Test\app.config" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Test\Class1.cs" />
+    <Compile Include="Test\frmCL188.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmCL188.designer.cs">
+      <DependentUpon>frmCL188.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmCL191.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmCL191.Designer.cs">
+      <DependentUpon>frmCL191.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmCL303.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmCL303.designer.cs">
+      <DependentUpon>frmCL303.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmCL311.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmCL311.designer.cs">
+      <DependentUpon>frmCL311.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmCL485.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmCL485.Designer.cs">
+      <DependentUpon>frmCL485.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\FrmUDPClient2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\FrmUDPClient2.designer.cs">
+      <DependentUpon>FrmUDPClient2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\pwFkTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\pwFkTest.Designer.cs">
+      <DependentUpon>pwFkTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\pw_SingleHex.cs" />
+    <Compile Include="Test\frmCLMainControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmCLMainControl.designer.cs">
+      <DependentUpon>frmCLMainControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmCLPowerConsume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmCLPowerConsume.Designer.cs">
+      <DependentUpon>frmCLPowerConsume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmCL485Adjust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmCL485Adjust.Designer.cs">
+      <DependentUpon>frmCL485Adjust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmCL485_WriteSCBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmCL485_WriteSCBH.Designer.cs">
+      <DependentUpon>frmCL485_WriteSCBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\frmSetSystemDateTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\frmSetSystemDateTime.Designer.cs">
+      <DependentUpon>frmSetSystemDateTime.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\pwClassLibrary\pwClassLibrary.csproj">
+      <Project>{8B657BBF-1F39-4C9F-BD97-22BB41D28568}</Project>
+      <Name>pwClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwComPorts\pwComPorts.csproj">
+      <Project>{982012C3-EC3F-4A0C-B0B6-9A19DF1A519E}</Project>
+      <Name>pwComPorts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwInterface\pwInterface.csproj">
+      <Project>{DAC7EF1E-85EA-4977-89ED-0C4DF1EACA83}</Project>
+      <Name>pwInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwMainControl\pwMainControl.csproj">
+      <Project>{34E32764-87C3-4324-84FB-73E062F08872}</Project>
+      <Name>pwMainControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pwMeterProtocol\pwMeterProtocol.csproj">
+      <Project>{57FD75E0-EFB0-4D1C-875E-62A3F26C1ABC}</Project>
+      <Name>pwMeterProtocol</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sign072.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

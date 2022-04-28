@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VerificationEquipment.Commons.EnergyValue" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAEAAAAAAAIgAAAEAAAAIAAAAAAAAA=</HashCode>
+      <FileName>EnergyValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerificationEquipment.Commons.EquipmentBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>koTHumCAS4Uoq7BLAiQ0suOOcQAGCmoUQkDPIMmYZMA=</HashCode>
+      <FileName>EquipmentBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VerificationEquipment.Commons.EquipmentMessageEventArgs" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
+      <FileName>EquipmentMessageEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerificationEquipment.Commons.ConnectException" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ConnectException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerificationEquipment.Commons.NoResponseException" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\NoResponseException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerificationEquipment.Commons.NotConnectedException" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\NotConnectedException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerificationEquipment.Commons.Open485Exception" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\Open485Exception.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerificationEquipment.Commons.PortException" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\PortException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerificationEquipment.Commons.LatentClockError" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAABAAAAAAAAAAgIAAAAAIABAACAAA=</HashCode>
+      <FileName>LatentClockError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerificationEquipment.Commons.Meter" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CJAAAAAEAQAgAAAAgADgAaAlABACAAgDAEAABmAEAAA=</HashCode>
+      <FileName>Meter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerificationEquipment.Commons.MeterPosition" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACAAAAAAAAAAAAAAAAAAABAAAAgQAAAIAAAAA=</HashCode>
+      <FileName>MeterPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerificationEquipment.Commons.Protocal" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAIAAAEAAAAACAAgIQAAAAAAAAAEAAEAAAAAAAgAA=</HashCode>
+      <FileName>Protocal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="VerificationEquipment.Commons.IEquipment" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>koTFumCAS4Uoq7BLACQ0suOOcQAGAmoUQkDPIMmYZMA=</HashCode>
+      <FileName>IEquipment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="VerificationEquipment.Commons.CarrieWaveType" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarrieWaveType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VerificationEquipment.Commons.MeterPositionPressStatus" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAIACAAAgAAAAAAAAA=</HashCode>
+      <FileName>MeterPositionPressStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VerificationEquipment.Commons.MeterPositionReverseStatus" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAgAAAAAAACAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeterPositionReverseStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VerificationEquipment.Commons.MeterPostionStatus" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MeterPostionStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VerificationEquipment.Commons.Phase" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAIAAAAEAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Phase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VerificationEquipment.Commons.Pulse" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Pulse.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VerificationEquipment.Commons.WiringMode" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WiringMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="VerificationEquipment.Commons.ReturnSampleDatasDelegate" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReturnSampleDatasDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

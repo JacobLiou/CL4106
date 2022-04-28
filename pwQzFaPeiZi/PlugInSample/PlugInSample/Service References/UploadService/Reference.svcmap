@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3441fcfd-f3f6-4626-bcba-13a0fb7d6fa2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://HenryX200/BrowserWCFService/UpLoadService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UpLoadService.disco" MetadataType="Disco" ID="35a3905a-19ed-492e-b8cb-e53736f89d04" SourceId="1" SourceUrl="http://henryx200/BrowserWCFService/UpLoadService.svc?disco" />
+    <MetadataFile FileName="UpLoadService.xsd" MetadataType="Schema" ID="a55e82d3-26f1-432d-bac2-7515c460d828" SourceId="1" SourceUrl="http://henryx200/BrowserWCFService/UpLoadService.svc?xsd=xsd1" />
+    <MetadataFile FileName="UpLoadService1.xsd" MetadataType="Schema" ID="3dec9f12-1b2f-4dca-9ec6-b63b38c0e3c5" SourceId="1" SourceUrl="http://henryx200/BrowserWCFService/UpLoadService.svc?xsd=xsd0" />
+    <MetadataFile FileName="UpLoadService.wsdl" MetadataType="Wsdl" ID="9910cff7-1662-481a-9fb9-7b8dabba88f5" SourceId="1" SourceUrl="http://henryx200/BrowserWCFService/UpLoadService.svc?wsdl" />
+    <MetadataFile FileName="UpLoadService2.xsd" MetadataType="Schema" ID="32637e44-4166-4338-b5fd-0fa14cce94d2" SourceId="1" SourceUrl="http://henryx200/BrowserWCFService/UpLoadService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
